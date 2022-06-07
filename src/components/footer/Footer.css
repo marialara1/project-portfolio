@@ -1,0 +1,10 @@
+.footer {
+    border-top: 1px solid black;
+     font-size: 1.8em;
+     display: flex;
+   
+}
+
+.footer>span {
+    margin: 0.8em;
+}

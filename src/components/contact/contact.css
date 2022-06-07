@@ -1,0 +1,11 @@
+.contact-link_text {
+    text-decoration: underline;
+    margin: 0;
+    padding: 0;
+}
+
+.love-letter_emoji {
+    font-size: 1.2em;
+    position: relative;
+    bottom: -3px;
+}

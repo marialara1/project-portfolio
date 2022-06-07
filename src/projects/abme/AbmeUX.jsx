@@ -1,0 +1,91 @@
+import wireframes from './abme-wireframes.png'
+import color from './abme-colors.svg'
+import typo from './abme-typo.svg'
+import components from './abme-components.svg'
+import ilustration from './ilustracion.svg'
+import AboutmeProject from '../AboutmeProject'
+
+function AbmeUX () {
+
+
+    return <>
+    
+    {/* <AboutmeProject></AboutmeProject> */}
+        <div className="tools">
+            <span className="span-title">TOOLS</span>
+            <h3>[FIGMA] [ADOBE ILLUSTRATOR] [ADOBE PHOTOSHOP]</h3>
+        </div>
+
+
+    <section className='section-category'>
+
+        <div className='section-category_head'>
+                <div className="challenge">
+                    <span className="span-title">Challenge</span>
+                    <p>
+                        The challenge of this project was doing my first  website, from the design to the code. 
+                        Tenía que ser una one-page web donde hablara sobre mí y tuviera un formulario de contacto
+                        para que el usuario pudiera contactar conmigo.
+                    </p>
+                </div>
+
+                <div className="goals">
+                    <span className="span-title">Goals</span>
+                    <ol>
+                        <li>Build a one-page web about me</li>
+                        <li>Ensure that it stands out from other about-me websites</li>
+                        <li>Create a mobile-first website, responsive on all devices.</li>
+                    </ol>
+                </div>
+        </div>
+
+
+        <div className="section__item">
+            <span className="span-title">User Persona</span>
+            <p>These users are posibles personas que pueden estar interesadas en contratar mis servicios como ux/ui o frontend y quieran conocerme de manera más personal, o mi trayectoria. Son personas que se dedican a profesiones en tech o diseño</p>
+        </div>
+
+        <div className="section__item">
+            <span className="span-title">Designing Solutions</span>
+            <p>I compiled all the research about similar websites y las tendencias actuales y empecé a diseñar. Quería diferenciar la landing page del about me page y la página de contacto así que diseñé la web de manera horizontal, la cual te podías mover pulsando los inputs home, about and contact. Comencé diseñando en la version movil para después pasarlo a desktop y tablet. USER FLOW tal.</p>
+        </div>
+
+        <div className="wireframes group">
+            <span className="span-title">Wireframes</span>
+            <img className="frontpic" src={wireframes} alt="wireframes from about me project" />
+        </div>
+
+
+        <div className="uxgroup">
+            <div className="colorscheme group marginbottom">
+                <span className="span-title">Color Scheme</span>
+                <img className="color" src={color} alt="color scheme from about me project" />
+            </div>
+            <div className="typograph group marginbottom">
+                <span className="span-title">Typography</span>
+                <img className="typo" src={typo} alt="typography from about me project, sporting grotesque and open sans" />
+            </div>
+            <div className="components group marginbottom">
+                <span className="span-title">Components</span>
+                <img className="components" src={components} alt="components from about me project" />
+            </div>
+
+            <p> Elegí una paleta cromática neutra y el rosa cómo único color principal, ya que el rosa me representa a nivel personal, transmite confianza, tranquilidad, creatividad y seguridad. Sporting Grotesque es una fuente con personalidad y de actualidad tal. La iconografía con grosores y trazo similares para que hubiera coherencia entre ellos </p>
+        </div>
+        
+        <div className="section__item section__item-details ">
+            <span className="span-title">Adding some details</span>
+            <div className='details'>
+                <div className='section__item-content'>
+                    <p>SVG SVG illustration made with Figma. Quería poner una ilustración que hice con Figmafuera como yo en el aboutme transmite simpatia. El SVG es un tipo de archivo que sirve para tal ocupa menos espacio tal.</p>
+                    <p>DARKMODE El darkmode me parecía importante usarlo ya que los usuarios a los que va dirigido a menudo tienen activado el darkmode en sus ordenadores ya que trabajan mucho tiempo delante de una pantalla, y el tener la opción de darkmode facilitaría y haría más agradable la visita del usuario por mi web.</p>
+                </div>
+                <img className="ilustration-aboutme" src={ilustration} alt="illustration of me. It has a bunny hat on it." />
+            </div>
+        </div>
+        
+    </section>
+</>
+}
+
+export default AbmeUX;

@@ -1,38 +1,79 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;600&display=swap');
+@import url('https://api.fontshare.com/css?f[]=zodiak@301,401&display=swap" rel="stylesheet');
+
+:root {
+    --main: rgb(0, 255, 0);
+    /* --bg: #F8F8F8; */
+    --bg: #f0f0f0;
+    --grey: rgb(197, 197, 197);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+main {
+  margin: 0;
+  padding: 0;
+  /* height: 100%; */
+  /* overflow-x: hidden; */
+}
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
+ 
+body {
+
+  background-color: var(--bg);
+  /* border: 2px solid #000; */
+  margin: 0;
+  padding: 0;
+  font-family: 'Work Sans', sans-serif;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  /* overflow: hidden; */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.bordersolid {
+  border: 1px solid #000;
+  /* border: 2px solid var(--bg); */
+}
+
+
+/* user agent stylesheet */
+
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight:400;
+}
+
+h4 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight:400;
+}
+.github-container {
+  cursor: pointer;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  margin: 4em;
+  gap: 1em;
 }
-
-.App-link {
-  color: #61dafb;
+.github-span {
+  font-size: 30px;
+  text-decoration: underline;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.github-icon {
+  width: auto;
+  height: auto;
 }

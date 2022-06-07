@@ -1,0 +1,62 @@
+.landing-container {
+    padding: 6em;
+    margin-top: 70px;
+}
+
+.landing-text {
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.stars {
+    width: 100px;
+}
+
+.marialara, .uxui {
+    font-size: 48px;
+    font-weight: 400;
+    margin: 0 10px 0 10px;
+    padding: 0;
+    display: inline;
+}
+
+.hover:hover {
+color: var(--main);
+}
+
+.landing-email {
+    text-decoration: underline;
+}
+
+.cta-container {
+    margin-top: 3em;
+}
+
+
+/* MQ */
+/* medium */
+
+@media (max-width: 1100px) {
+
+}
+
+/* ------------------------------
+//* --------****MOBILE****--------
+//* ------------------------------*/
+
+@media (max-width: 700px) {
+    .landing-container {
+        padding: 2.5em;
+        margin-top: 1em;
+    }
+
+    .landing-text,.marialara, .uxui  {
+        font-size: 38px;
+        font-weight: 400;
+    }
+
+    .brlanding {
+        display: none;
+    }
+}
+

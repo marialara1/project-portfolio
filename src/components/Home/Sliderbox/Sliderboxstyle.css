@@ -1,0 +1,198 @@
+.sliders__container{
+    background-color: var(--bg); 
+}
+
+.sliderbox_container {
+    /* width: 100vw; */
+    height: 70px;
+}
+
+.downloadcv {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+        .download-cv {
+            margin-left: 1em;
+            text-decoration: underline;
+        }
+
+.getknowme {
+    padding: 1em;
+    margin-top: -1px; 
+    background-color: var(--main);
+}
+
+.acordeon-container {
+    height: 85vh;
+    font-size: 32px;
+    padding: 1em;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+    .acordeon-footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .acordeon__know-more {
+        margin-top: 12px;
+        text-decoration: underline;
+    }
+
+    .acordeon__arrow {
+        transform: scale(0.8);
+        margin-bottom: -3px;
+        margin-left: 0.5em;
+    }
+
+/* hide and open */
+.active { 
+    background: red;
+}
+
+.linkrrss {
+    position: relative;
+    text-decoration: underline;
+    top: 20px;
+}
+
+
+/* MQ */
+/* medium */
+
+@media (min-width: 1100px) {
+    .sliders__container {
+        height: 100vh;
+        position:absolute;
+        top: 0;
+        right: 0;
+       display: flex;
+    }
+
+    
+.sliderbox_container {
+    /* width: 100vw; */
+    height: 100%;
+    width: 100px;
+}
+
+.sliderbox_content {
+    transform: rotate(90deg);
+    width: 100%;
+    white-space: nowrap;
+    
+}
+
+.sliderbox1 {
+    display: flex;
+    order: 1;
+}
+
+.getknowme {
+    padding: 2em;
+    margin-top: -0px; 
+
+}
+
+.acordeon-container {
+    height: 100vh;
+    font-size: 46px;
+    width: 1000px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 0px solid black;
+    border-right: 0px solid black;
+}
+
+    .acordeon__arrow {
+        transform: scale(1.2);
+    }
+
+
+}
+
+
+
+
+/* codepen acordeon */
+
+
+/*  */
+
+.field-accordion {
+    background-color: #fff;
+    border: 1px solid #364da1;
+    border-bottom: 0;
+    margin: 0 auto;
+    transition: border-color 300ms ease-in-out;
+    width: 100%;
+}
+.field-accordion .field-web-title {
+    background-color: #364da1;
+    border-bottom: #b5b5b5 1px solid;
+    color: #fff;
+    cursor: pointer;
+    font-size: 13px;
+    margin: 0;
+    padding: 11px 19px;
+    position: relative;
+    transition: background-color 300ms ease-in-out, border-color 300ms ease-in-out;
+    user-select: none;
+}
+.field-accordion .field-web-title:after, .field-accordion .field-web-title:before {
+    background: #fff;
+    content: '';
+    display: inline-block;
+    height: 0.3rem;
+    position: absolute;
+    right: 11px;
+    top: 22px;
+    transform-origin: 0.05rem center;
+    transition: all 300ms ease-in-out;
+    width: 1.1rem;
+}
+@media screen and (min-width : 768px) {
+    .field-accordion .field-web-title:after, .field-accordion .field-web-title:before {
+        top: 28px;
+   }
+}
+.field-accordion .field-web-title:after {
+    transform: rotate(210deg);
+    right: 10px;
+}
+.field-accordion .field-web-title:before {
+    transform: rotate(-30deg);
+}
+@media screen and (min-width : 768px) {
+    .field-accordion .field-web-title {
+        font-size: 22px;
+   }
+}
+.field-accordion .field-web-title:hover {
+    background-color: #000;
+}
+.field-accordion .field-web-title:hover:after, .field-accordion .field-web-title:hover:before {
+    top: 13px;
+}
+@media screen and (min-width : 768px) {
+    .field-accordion .field-web-title:hover:after, .field-accordion .field-web-title:hover:before {
+        top: 18px;
+   }
+}
+.field-accordion .field-web-title:hover:before {
+    transform: rotate(30deg);
+}
+.field-accordion .field-web-title:hover:after {
+    transform: rotate(150deg);
+}
+.field-accordion .field-accordion-content {
+    background-color: #fff;
+    padding: 22px;
+}

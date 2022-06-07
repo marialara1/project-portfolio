@@ -1,0 +1,365 @@
+/* .cursor-normal {
+  cursor: auto;
+}
+ */
+
+/* buttons */
+
+.active {
+  background-color: black;
+  color:var(--bg);
+}
+
+.inactive:hover {
+  background-color: black;
+  color: white;
+}
+
+.frontpic {
+    width: 750px;
+}
+
+.span-title {
+    text-decoration: underline;
+}
+
+.projectHeader {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+    font-size: 1.5em;
+    text-align: center;
+}
+ 
+.arrow-link {
+    height: 1em;
+    position: relative;
+    bottom: -5px;
+
+}
+.projectTitle>h2, h1 {
+    font-weight: 400;
+}
+.projectTitle>h1 {
+    margin-bottom: -10px;
+}
+.projectTitle>h2 {
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 1.2em;
+}
+
+.projectButtons-container {
+    padding: 2em;
+    display: flex;
+    gap: 2.5em;
+}
+
+
+.projectButton {
+    cursor: pointer;
+    padding: 16px;
+    border-radius: 32px;
+    width: 200px;
+    font-size: 0.7em;
+}
+
+/* .projectButton:hover {
+transform: skew(5deg);
+}  */
+
+
+.mockup {
+    width: 800px;
+}
+
+
+.section-category {
+    padding: 9em;
+    font-size: 1.3em;
+}
+
+.tools {
+    text-align: center;
+}
+
+.group {
+    display: flex;
+    flex-direction: row;
+    gap: 3em;
+}
+
+.uxgroup {
+  margin-left: 10em;
+  width: 70%;
+}
+
+.span-title {
+    width: 8em;
+    white-space: nowrap;
+}
+
+.marginbottom {
+    margin-bottom: 3em;
+}
+/* ux */
+
+.section-category {
+  padding: 8em;
+    width: 100%;
+   display: flex;
+   flex-direction: column;
+   gap: 4em;
+  }
+
+  .section-category_head {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    gap: 100px;
+    padding: 0 6em 0 6em;
+
+  }
+
+  .goals {
+    white-space: nowrap;
+  }
+
+  .section__item {
+    width: 50%;
+  }
+ 
+  .section__item-details {
+    width: 100%;
+  }
+
+  .section__item-content {
+    width: 50%;
+  }
+
+  .section__item-content>p {
+    margin-bottom: 50px;
+  } 
+  .details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+
+/* mocks */
+
+.mockups-section {
+    background-color: black;
+    color: white;
+    padding: 3em;
+    font-size: 40px;
+} 
+.mockups-container {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -3em;
+    margin-bottom: -2em;
+    padding: 5em;
+    gap: 3em;
+}
+
+.mockup {
+    width: 1000px;
+}
+
+
+/* extra */
+/* abme section */
+.ilustration-aboutme {
+    width: 200px;
+}
+
+
+/* ---------------------------- */
+/* cursor!!!!!!!!!!!!!!!!! */
+/* .mouse-cursor-gradient-tracking {
+  cursor: none;
+  position: relative;
+  border: none;
+
+}
+
+.mouse-cursor-gradient-tracking span {
+  position: relative;
+}
+
+.mouse-cursor-gradient-tracking::before {
+  --size: 0;
+  content: '';
+  position: absolute;
+  left: var(--x);
+  top: var(--y);
+  width: var(--size);
+  height: var(--size);
+  background: radial-gradient(circle closest-side, #FF85C7, transparent);
+  transform: translate(-50%, -50%);
+  transition: width 0.3s ease, height 0.3s ease;
+}
+
+.mouse-cursor-gradient-tracking:hover::before {
+  --size: 300px;
+} */
+
+
+/* ---------------------------- */
+/*!!!!!!!!!!!!!!!!! */
+
+
+.darkmode {
+  background-color: black;
+  color: beige;
+}
+
+
+
+/* ¡¡¡¡¡¡¡MQ */
+
+@media (max-width: 1600px) {
+  .section-category {
+    padding: 1.5em;
+     gap: 2em;
+    }
+  
+    .section-category_head {
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+      gap: 70px;
+      width: 100%;
+      padding: 1.5em;
+  
+    }
+  
+    .goals {
+      white-space: normal;
+    }
+
+  .section-category {
+    padding: 4em;
+    }
+
+    .group {
+      flex-direction: column;
+      gap: 1em;
+  }
+  
+  .uxgroup {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .color {
+    width: 500px;
+  }
+  .typo {
+    width: 800px;
+  }
+  .components{
+    width: 200px;
+  }
+
+  .mockups-section {
+    padding: 2em;
+} 
+.mockups-container {
+    padding: 3em;
+    gap: 2em;
+}
+
+  .mockup {
+    width: 700px;
+}
+
+
+}
+
+/* ------------------------------
+//* --------****MOBILE****--------
+//* ------------------------------*/
+
+@media (max-width: 700px) {
+  .frontpic {
+    width: 500px;
+    
+} 
+  .section-category {
+    padding: 1.5em;
+     gap: 2em;
+    }
+  
+    .section-category_head {
+
+      gap: 100px;
+
+  
+    }
+  
+    .goals {
+      white-space: normal;
+    }
+  
+    .section__item {
+      width: 100%;
+    }
+  
+    .section__item-content {
+      width: 100%;
+    }
+  
+    .section__item-content>p {
+      margin-bottom: 40px;
+    } 
+
+    .group {
+      flex-direction: column;
+      gap: 1em;
+  }
+  
+  .uxgroup {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .components {
+    width: 200px;
+  }
+  .typo {
+    width: 550px;
+  }
+    .details {
+      flex-direction: column;
+    }
+
+    .ilustration-aboutme {
+      margin: auto;
+      padding: 10px;
+    }
+
+
+    .mockups-section {
+      padding: 1em;
+  } 
+  .mockups-container {
+      padding: 2em;
+      gap: 1em;
+      margin-bottom: 50px;
+  }
+    .mockup {
+      width: 550px;
+  }
+  
+}
