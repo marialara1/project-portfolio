@@ -14,6 +14,7 @@ function Home () {
     //   ];
 
 
+
     return  <>
     <section className="home-container">
     <Sliderbox></Sliderbox>

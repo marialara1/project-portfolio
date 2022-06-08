@@ -52,10 +52,8 @@ align-items: center;
         margin-left: 0.5em;
     }
 
-/* hide and open */
-.active { 
-    background: red;
-}
+
+
 
 .linkrrss {
     position: relative;
@@ -196,3 +194,21 @@ align-items: center;
     background-color: #fff;
     padding: 22px;
 }
+
+
+
+/* hide and open */
+    /* div width: 500px;     position: relative;*/
+
+
+    .div {
+
+    transform: scaleX(0);
+    width: 0px;
+    transition: all 1s;
+  }
+  
+  .activeb {
+    width: auto;
+  }
+  

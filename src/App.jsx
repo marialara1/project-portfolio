@@ -10,6 +10,7 @@ import AboutmeProject from './projects/AboutmeProject';
   import AbmeFR from './projects/abme/AbmeFR'
 
 import CakesProject from './projects/CakesProject';
+import CakesFR from './projects/cakes/CakesFR';
 import MartaProject from './projects/MartaProject';
 import SaraProject from './projects/SaraProject';
 import ArchitectureProject from './projects/ArchitectureProject';
@@ -35,7 +36,7 @@ function App() {
       <Route path="/projects/about-me/front" element={<AbmeFR/>}>  </Route>
 
       <Route path="/projects/vegan-cakes/ux" element={<CakesProject/>}>  </Route>
-
+      <Route path="/projects/vegan-cakes/front" element={<CakesFR/>}>  </Route>
 
         {/* <Route path="/projects/about-me/front" element={<AbmeFR/>}> </Route> */}
 

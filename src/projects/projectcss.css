@@ -150,6 +150,12 @@ transform: skew(5deg);
     width: 100%;
   }
 
+  .purchaseflow {
+    display: flex;
+    flex-direction: row;
+    gap: 4em;
+  }
+
 
 /* mocks */
 
