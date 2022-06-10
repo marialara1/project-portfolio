@@ -2,33 +2,22 @@ import './Sliderboxstyle.css';
 import $ from "jquery"
 import ContactLink from '../../contact/contact-link';
 import { Link } from "react-router-dom";
-import { useEffect } from 'react';
+import { useState } from 'react';
 
 function Sliderbox () {
 
+  let [activeClass, setActiveClass] = useState('');
 
-
-  useEffect(() => {
-  
-    document.querySelector(".button").addEventListener
-    
-    ('click', () => 
-    {
-      document.querySelector(".div").classList.add('activeb');
-      document.querySelector(".div").classList.remove('activeb');
-    })
-
-
-
-}, [])
-
+  const showContent = () => {
+    setActiveClass(activeClass === 'activeb' ? '' : 'activeb');
+  }
 
     return (
       <>
 
         <div className='sliders__container'>
-
-            <div className="sliderbox_container sliderbox1 bordersolid">
+          
+            <Link to={`/cv`} className="sliderbox_container sliderbox1 bordersolid">
                 <div className="sliderbox_content downloadcv">   
 
                     <div title="ascii bunny" className="cv-bunny">
@@ -36,27 +25,27 @@ function Sliderbox () {
                         ( ᵔ ᵕ ᵔ ) <br />
                         / づ  づ ~ ♡
                     </div> 
-                    <a href="./__maria-lara-CV.pdf" download="Maria-LaraCV">
+                    <a >
                       <span className='download-cv'> Download my cv!</span>
                     </a>
 
                 </div>
+             
 
-
-            </div>
-
+            </Link>
+ 
           
-            <div className="sliderbox_container getknowme bordersolid button">
+            <div onClick={showContent} className="sliderbox_container getknowme bordersolid button">
 
 
-                <div onclick="setActive(0)" className="sliderbox_content">    
+                <div className="sliderbox_content">    
                 GET TO KNOW ME, <br /> SKILLS AND JOB TOOLS    
                 </div>
             </div>
 
 
 
-            <div className='acordeon-container div'>
+            <div className={'acordeon-container div ' + activeClass}>
               <p className='acordeon-text'>
               Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff you call this cat food claw drapes. Scratch at door to be let outside, get let out then scratch at door immmediately after to be let back in annoy the old grumpy cat, start a fight and then retreat to wash when i lose.
               <br />

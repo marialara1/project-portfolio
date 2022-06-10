@@ -101,8 +101,8 @@ align-items: center;
 
 .acordeon-container {
     height: 100vh;
-    font-size: 46px;
     width: 1000px;
+    font-size: 46px;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     border-left: 0px solid black;
@@ -119,96 +119,74 @@ align-items: center;
 
 
 
-/* codepen acordeon */
-
-
-/*  */
-
-.field-accordion {
-    background-color: #fff;
-    border: 1px solid #364da1;
-    border-bottom: 0;
-    margin: 0 auto;
-    transition: border-color 300ms ease-in-out;
-    width: 100%;
-}
-.field-accordion .field-web-title {
-    background-color: #364da1;
-    border-bottom: #b5b5b5 1px solid;
-    color: #fff;
-    cursor: pointer;
-    font-size: 13px;
-    margin: 0;
-    padding: 11px 19px;
-    position: relative;
-    transition: background-color 300ms ease-in-out, border-color 300ms ease-in-out;
-    user-select: none;
-}
-.field-accordion .field-web-title:after, .field-accordion .field-web-title:before {
-    background: #fff;
-    content: '';
-    display: inline-block;
-    height: 0.3rem;
-    position: absolute;
-    right: 11px;
-    top: 22px;
-    transform-origin: 0.05rem center;
-    transition: all 300ms ease-in-out;
-    width: 1.1rem;
-}
-@media screen and (min-width : 768px) {
-    .field-accordion .field-web-title:after, .field-accordion .field-web-title:before {
-        top: 28px;
-   }
-}
-.field-accordion .field-web-title:after {
-    transform: rotate(210deg);
-    right: 10px;
-}
-.field-accordion .field-web-title:before {
-    transform: rotate(-30deg);
-}
-@media screen and (min-width : 768px) {
-    .field-accordion .field-web-title {
-        font-size: 22px;
-   }
-}
-.field-accordion .field-web-title:hover {
-    background-color: #000;
-}
-.field-accordion .field-web-title:hover:after, .field-accordion .field-web-title:hover:before {
-    top: 13px;
-}
-@media screen and (min-width : 768px) {
-    .field-accordion .field-web-title:hover:after, .field-accordion .field-web-title:hover:before {
-        top: 18px;
-   }
-}
-.field-accordion .field-web-title:hover:before {
-    transform: rotate(30deg);
-}
-.field-accordion .field-web-title:hover:after {
-    transform: rotate(150deg);
-}
-.field-accordion .field-accordion-content {
-    background-color: #fff;
-    padding: 22px;
-}
-
-
-
 /* hide and open */
     /* div width: 500px;     position: relative;*/
-
+/* 
 
     .div {
-
     transform: scaleX(0);
     width: 0px;
     transition: all 1s;
   }
   
   .activeb {
-    width: auto;
+    width: 300px;
   }
-  
+   */
+
+   .activeb {
+    /* transform: scaleX(0);
+    width: 0;
+    transition: all 1s;
+    transition: all 3s; */
+    transform: scaleX(0);
+    width: 0;
+    transition: all 1s;
+    transition: all 3s;
+
+  }
+
+
+  /* cv section */
+  .cv-section {
+      background-color: black;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      overflow: hidden;
+
+  }
+
+  .cv-img {
+      height: 75vh;
+      margin-top: 3em;
+      transition: all 1s;
+  }
+
+  .cv-img:hover {
+    transform: skewY(5deg);
+    transition: all 1s;
+}
+
+  .cv-button {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 2px;
+    cursor: pointer;
+    font-size: 26px;
+    border: 2px solid #000;
+    border-radius: 100px;
+    margin-top: 2em;
+    padding: 6px;
+    text-align: center;
+    background-color: var(--bg);
+  }
+
+.bg-black {
+    height: 100vh;
+    background-color: black;
+    overflow: hidden;
+}

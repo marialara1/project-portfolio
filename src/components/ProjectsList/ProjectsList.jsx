@@ -6,7 +6,8 @@ function ProjectsList (props) {
     
     return (
       <>
-        {/* <div className="projects-list">
+
+        <div className="projects-list">
           <div className="projects-list__container">
             <div className="js-navigation__link navigation__text js-navigation__text navigation__link">
 
@@ -21,7 +22,7 @@ function ProjectsList (props) {
                 </div>
             </div>
           </div>
-        </div> */}
+        </div>
 
 
       </>

@@ -4,6 +4,8 @@ import Home from './components/Home/Home';
 import Aboutme from './pages/Aboutme/Aboutme';
 import ProjectSection from './components/ProjectSection/ProjectSection';
 import { Route, Routes} from 'react-router-dom';
+
+import CV from "./components/Home/Sliderbox/Cv"
 // projects
 import AboutmeProject from './projects/AboutmeProject';
   import AbmeUX from './projects/abme/AbmeUX'
@@ -26,6 +28,8 @@ function App() {
     <main>
     <Routes>
       <Route path="/" element={<Home/>}></Route>
+
+      <Route path="/cv" element={<CV/>}></Route>
   
 {/* projects routes */}
     
@@ -45,8 +49,6 @@ function App() {
       <Route path="/projects/marta-portfolio/ux" element={<MartaProject/>}> </Route>
       <Route path="/projects/sara-portfolio/ux" element={<SaraProject/>}> </Route>
       <Route path="/projects/architecture-redesign/ux" element={<ArchitectureProject/>}> </Route>
-
-
 
 
 {/* pages */}

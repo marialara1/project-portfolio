@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import stars from './stars.png'
 
 function Landing () {
+    
     return <section className="landing-container">
         
         <img className="stars" src={stars} alt="stars drawing" />
@@ -39,7 +40,7 @@ function Landing () {
             </Link> 
 
             Let’s talk about your project <br className='brlanding' />
-             by <a className='landing-email hover' href = "mailto: larasanchezmaria">email</a> , 
+             by <a className='landing-email hover' href = "mailto: lara.maria.mail@gmail.com">email</a> , 
             I'd love to connect!
         </span>
 
