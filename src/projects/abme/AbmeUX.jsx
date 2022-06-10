@@ -23,9 +23,7 @@ function AbmeUX () {
                 <div className="challenge">
                     <span className="span-title">Challenge</span>
                     <p>
-                        The challenge of this project was doing my first  website, from the design to the code. 
-                        Tenía que ser una one-page web donde hablara sobre mí y tuviera un formulario de contacto
-                        para que el usuario pudiera contactar conmigo.
+                    The challenge of this project was doing my first website, from the design to the code. It had to be a one-page website where I talked about myself and had a contact form so that the user could contact me.
                     </p>
                 </div>
 
@@ -42,12 +40,13 @@ function AbmeUX () {
 
         <div className="section__item">
             <span className="span-title">User Persona</span>
-            <p>These users are posibles personas que pueden estar interesadas en contratar mis servicios como ux/ui o frontend y quieran conocerme de manera más personal, o mi trayectoria. Son personas que se dedican a profesiones en tech o diseño</p>
+            <p>These users are potential people who may be interested in hiring my services as an ux/ui or frontend and want to get to know me more personally, or my career. 
+                They're people who are dedicated to tech or design professions. </p>
         </div>
 
         <div className="section__item">
             <span className="span-title">Designing Solutions</span>
-            <p>I compiled all the research about similar websites y las tendencias actuales y empecé a diseñar. Quería diferenciar la landing page del about me page y la página de contacto así que diseñé la web de manera horizontal, la cual te podías mover pulsando los inputs home, about and contact. Comencé diseñando en la version movil para después pasarlo a desktop y tablet. USER FLOW tal.</p>
+            <p>I compiled all the research about similar websites and current trends and started designing. I wanted to differentiate the landing page from the about me page and the contact page, so I designed the website horizontally, which you could move by pressing the home, about and contact inputs. That's how simple the userflow is, making it easy to navigate the web. I started designing in the mobile version to later do it on desktop and tablet.</p>
         </div>
 
         <div className="wireframes group">
@@ -70,15 +69,15 @@ function AbmeUX () {
                 <img className="components" src={components} alt="components from about me project" />
             </div>
 
-            <p> Elegí una paleta cromática neutra y el rosa cómo único color principal, ya que el rosa me representa a nivel personal, transmite confianza, tranquilidad, creatividad y seguridad. Sporting Grotesque es una fuente con personalidad y de actualidad tal. La iconografía con grosores y trazo similares para que hubiera coherencia entre ellos </p>
+            {/* <p> I chose a neutral color palette and pink as the only main color, since pink represents me on a personal level, it conveys confidence, tranquility, creativity and security. Sporting Grotesque is such a characterful and topical font. The iconography with similar thicknesses and strokes so that there was coherence between them </p> */}
         </div>
         
         <div className="section__item section__item-details ">
             <span className="span-title">Adding some details</span>
             <div className='details'>
                 <div className='section__item-content'>
-                    <p>SVG SVG illustration made with Figma. Quería poner una ilustración que hice con Figmafuera como yo en el aboutme transmite simpatia. El SVG es un tipo de archivo que sirve para tal ocupa menos espacio tal.</p>
-                    <p>DARKMODE El darkmode me parecía importante usarlo ya que los usuarios a los que va dirigido a menudo tienen activado el darkmode en sus ordenadores ya que trabajan mucho tiempo delante de una pantalla, y el tener la opción de darkmode facilitaría y haría más agradable la visita del usuario por mi web.</p>
+                    <p>SVG illustration made with Figma. I wanted to use an illustration that I made with Figma which looked like me. As it is an svg it takes up less space than a normal png illustration, which helps the web to be more dynamic and fast.</p>
+                    <p>The darkmode theme seemed important for me to use since the users to whom it is directed often have the darkmode theme activated on their devices, since they work a lot of time in front of a screen, and having the darkmode option would be more friendly for the user.</p>
                 </div>
                 <img className="ilustration-aboutme" src={ilustration} alt="illustration of me. It has a bunny hat on it." />
             </div>
