@@ -9,10 +9,10 @@ function Cv() {
     <Header></Header>
     <section className="cv-section">
         <img className="cv-img" src={cv} alt="cv image" />
-        <button download="__maria-lara-CV.pdf" className="cv-button"> 
+        {/* <button download="__maria-lara-CV.pdf" className="cv-button"> 
         download
         <img src={arrowdw} alt="arrow" />
-        </button>
+        </button> */}
     </section>
     </div>
     </>

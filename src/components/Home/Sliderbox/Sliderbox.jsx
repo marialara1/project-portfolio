@@ -26,7 +26,7 @@ function Sliderbox () {
                         / づ  づ ~ ♡
                     </div> 
                     <a >
-                      <span className='download-cv'> Download my cv!</span>
+                      <span className='download-cv'> See my cv!</span>
                     </a>
 
                 </div>

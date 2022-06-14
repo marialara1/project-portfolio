@@ -11,17 +11,18 @@
   .about-link__projects {
     text-decoration: underline;
     font-size: 32px;
+    margin-right: 2em;
   }
 
   .footer__projects {
     position: absolute;
-    bottom: 1em;
-    left: 1em;
+    bottom: 3em;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 90vw;
+    width: 100vw;
+  
   }
 
 

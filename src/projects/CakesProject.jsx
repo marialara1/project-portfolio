@@ -36,7 +36,7 @@ function CakesProject () {
             </h2>
         </span>
 
-        <img className="frontpic" src={mock5} alt="" />
+        <img className="frontpic" src={mock2} alt="" />
 
         {/* buttons */}
 
@@ -69,9 +69,6 @@ function CakesProject () {
                 <img className="mockup" src={mock4} alt="mockup from about me project" />
             </div>
         </section> 
-
-
-
 
 {/* FOOTER */}
 <Footer></Footer>
