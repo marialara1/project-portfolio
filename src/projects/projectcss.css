@@ -41,6 +41,7 @@
 
 }
 .projectTitle>h2, h1 {
+  font-size: 1.2em;
     font-weight: 400;
 }
 .projectTitle>h1 {

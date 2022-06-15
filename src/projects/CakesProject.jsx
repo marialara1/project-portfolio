@@ -13,6 +13,7 @@ import mock2 from './cakes/mock2.png'
 import mock3 from './cakes/mock3.png'
 import mock4 from './cakes/mock4.png'
 import mock5 from './cakes/mock5.png'
+import mock6 from './cakes/mock6.png'
 
 import Footer from '../components/footer/Footer'
 
@@ -22,7 +23,7 @@ function CakesProject () {
 
     return <>
     <Header></Header>
-        <section className="cursor-normal">
+        
     {/* template */}
 
     <section className="projectHeader">
@@ -31,12 +32,12 @@ function CakesProject () {
             <h2> 
                 <a target="_blank" href="https://frontend.esatid3-2021.com/maria/aboutme/">
                     Online Shop
-                    <img className="arrow-link" src={arrow} alt="" />
+                    <img className="arrow-link" src={arrow} alt="arrow" />
                 </a>
             </h2>
         </span>
 
-        <img className="frontpic" src={mock2} alt="" />
+        <img className="frontpic" src={mock6} alt="project mockup" />
 
         {/* buttons */}
 
@@ -48,9 +49,7 @@ function CakesProject () {
                 <button className="projectButton front-button inactive">  FRONTEND </button> 
             </Link> 
         </div> 
-    </section>
-
-
+</section>
 
 {/* UX */}
 <CakesUX></CakesUX>
@@ -74,7 +73,7 @@ function CakesProject () {
 <Footer></Footer>
 
 
-</section>
+
 
 
     </>
