@@ -3,14 +3,23 @@ import $ from "jquery"
 import ContactLink from '../../contact/contact-link';
 import { Link } from "react-router-dom";
 import { useState } from 'react';
-
+import arrowslider from './arrowslider.svg'
 function Sliderbox () {
 
   let [activeClass, setActiveClass] = useState('');
 
   const showContent = () => {
-    setActiveClass(activeClass === 'activeb' ? '' : 'activeb');
+    setActiveClass(activeClass === 'activeb' ? 'activec' : 'activeb');
   }
+
+  const rotateArrow = () => {
+    setActiveClass(activeClass === 'rotateb' ? 'rotatec' : 'rotateb');
+  }
+
+  function todos(){
+    showContent();
+    rotateArrow();
+}
 
     return (
       <>
@@ -37,13 +46,11 @@ function Sliderbox () {
           
             <div onClick={showContent} className="sliderbox_container getknowme bordersolid button">
 
+              <div className="sliderbox_content">                
+                  GET TO KNOW ME, <br /> SKILLS AND JOB TOOLS    
+              </div>
 
-                <div className="sliderbox_content">    
-                GET TO KNOW ME, <br /> SKILLS AND JOB TOOLS    
-                </div>
-            </div>
-
-
+              <img className='arrowslider' src={arrowslider} alt="arrow" /></div>
 
             <div className={'acordeon-container div ' + activeClass}>
               <p className='acordeon-text'>
