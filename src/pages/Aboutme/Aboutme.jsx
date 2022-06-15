@@ -2,7 +2,7 @@ import Header from "../../components/Header/Header"
 import pic from "./me-pic.jpg"
 import './Aboutme.css';
 import Contact from "../../components/contact/contact-link"
-
+import { Link } from "react-router-dom";
 
 function Aboutme () {
     return <>
@@ -13,7 +13,9 @@ function Aboutme () {
 
                 <div className="contact-cv__container">
                     <Contact></Contact>
-                    <a className="" href="">cv</a>
+                    <Link to={`/cv`}>
+                    <a className="cvlink-about" href="">cv</a>
+                    </Link>
                 </div>
             </div>
 

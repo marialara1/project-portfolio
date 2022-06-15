@@ -2,10 +2,15 @@
     text-decoration: underline;
     margin: 0;
     padding: 0;
+    font-size: 32px;
+}
+
+.cvlink-about {
+    font-size: 32px;
 }
 
 .love-letter_emoji {
-    font-size: 1.2em;
+    font-size: 32px;
     position: relative;
     bottom: -3px;
 }
