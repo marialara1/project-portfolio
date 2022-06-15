@@ -318,19 +318,21 @@ align-items: center;
     
   /* slider// */
   .acordeon-container {
+    padding: 0;
+    overflow: hidden;
+    height: 0;
+    width: 100%;
+    border: none;
+} 
+   .activeb {
     padding: 1em;
     font-size: 24px;
     width: 100%;
     height: 80vh;
     border-left: 1px solid black;
     border-right: 1px solid black;
-} 
-   .activeb {
-    padding: 0;
-    overflow: hidden;
-    height: 0;
-    width: 100%;
-    border: none;
+
+
     /* transition: all 2s; */
     /* margin-right: -1px; */
   }
@@ -367,16 +369,18 @@ align-items: center;
         text-decoration: underline;
     }
     .arrowslider {
+        transition: all 1s;
+        transform: scaleX(-1);
+        
         position: relative;
         top: 0;
         width: 30px;
-        transform: scaleX(1);
+       
         transition: all 1s;
     }
 
     .rotateb {
-        transition: all 1s;
-        transform: scaleX(-1);
+        transform: scaleX(1);
       }
     
     .sliderbox1 {
