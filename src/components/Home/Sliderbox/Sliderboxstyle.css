@@ -1,3 +1,7 @@
+.animationascii{
+    width: 80px;
+}
+
 .sliders__container{
     background-color: var(--bg); 
     /* display: flex;
@@ -75,6 +79,8 @@ align-items: center;
 /* medium */
 
 @media (min-width: 1100px) {
+
+    
     .sliders__container {
         height: 100vh;
         position:absolute;
@@ -174,7 +180,10 @@ align-items: center;
         margin-top: 12px;
         text-decoration: underline;
     }
-    
+
+    .animationascii{
+        width: min-content;
+    }
 
 }
 

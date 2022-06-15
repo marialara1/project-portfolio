@@ -6,6 +6,85 @@ import { useState } from 'react';
 import arrowslider from './arrowslider.svg'
 function Sliderbox () {
 
+
+  // HTML Less JSResult Skip Results Iframe
+/**
+ * Small animation function to create basic animations with setInterval
+ */
+
+// If the browser is ready start the function
+window.onload = function () {
+  //Select the container in which the animation will be played
+  let node_copy = document.getElementById('youreOfflineAnimation');
+
+  //Your animation frames, frame by frame.
+  //Feel free to add or delete frames, to see what happens ;)    
+  let asciiFrames = [
+          
+           '˚♡ \xa0',
+           '\xa0 ♡ ﾟ', 
+           '\xa0 ♡ ﾟ', 
+           '\xa0 ⠀⠀˚♡ ',
+           '\xa0 ⠀⠀˚♡ ',
+           '\xa0⠀⠀⠀♡ ﾟ',
+           '\xa0⠀⠀⠀♡ ﾟ',
+           '\xa0⠀⠀⠀⠀˚♡ ﾟ',
+           '\xa0⠀⠀⠀⠀˚♡ ﾟ',
+           '⠀⠀⠀⠀✧ ﾟ',
+           '⠀⠀⠀⠀˚⊹ ',
+           '⠀⠀⠀⠀˚ ',
+           '⠀⠀⠀♡⊹',
+           '⠀⠀ ♡⊹',
+           '⠀⊹',
+           '⊹',
+           '',
+           '♡',
+           '♡',
+           '˚ \xa0',
+           '˚⊹ \xa0',
+           '˚✧ \xa0',
+           '˚♡ \xa0',
+
+
+
+          ];
+  
+  
+  
+  var animateASCII = {
+   init: function(frames, target){
+     //Set the start frame to 0
+     let i = 0;     
+      //Puts the start frame insight the node_copy container   
+      node_copy.innerText = frames[0];
+      //Starts the intervall to render the animnation     
+      setInterval(() => {
+        //Puts the new frame in the node_copy container  
+        node_copy.innerText = frames[i];
+        /*Goes to the next array element (frame), and set it to 
+          zero if we reached the last frame to restart the animation*/
+        if (i < frames.length-1) {
+          i++;
+        } else {
+          i = 0;
+        }
+      //Here you can adjust the animation speed
+      }, 150);
+   }
+  };
+  
+  //Starts the ASCII function
+  animateASCII.init(asciiFrames,node_copy); 
+} 
+
+
+
+
+
+
+
+  // asci
+
   let [activeClass2, setActiveClass2] = useState('');
   const rotateArrow = () => {
     setActiveClass2(activeClass2 === 'rotateb' ? 'rotatec' : 'rotateb');
@@ -29,12 +108,14 @@ function Sliderbox () {
 
         <div className='sliders__container'>
           <Link to={`/cv`} className="sliderbox_container sliderbox1 bordersolid">
-              <div className="sliderbox_content downloadcv">   
+              <div className="sliderbox_content downloadcv"> 
+              
                   <div title="ascii bunny" className="cv-bunny">
                       ⠀/)   /) <br />
                       ( ᵔ ᵕ ᵔ ) <br />
-                      / づ  づ ~ ♡
+                      / づ  づ ~ 
                   </div> 
+                  <div className='animationascii' id="youreOfflineAnimation"></div>  
                   <a >
                     <span className='download-cv'> See my cv!</span>
                   </a>

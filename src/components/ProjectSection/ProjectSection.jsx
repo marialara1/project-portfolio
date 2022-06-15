@@ -13,6 +13,8 @@ import Animation from "../ProjectSection/Animation"
 
 
 function ProjectSection () {
+
+
     const projects = [
       { name: 'Marta Cazalla Portfolio Web', sub: 'Portfolio Web', urlname: 'marta-portfolio', img: mock3 },
       { name: 'Vegan Cakes Online Shop', sub: 'Online Shop', urlname: 'vegan-cakes', img: mock2},
