@@ -41,15 +41,19 @@ function Sliderbox () {
               </div>
           </Link>
 
-          <div onClick={todos} className="sliderbox_container getknowme bordersolid button">
+          <div onClick={todos} className="sliderbox_container getknowme bordersolid">
+          {/* 1 */}
             <div className="sliderbox_content">                
                 GET TO KNOW ME, <br /> SKILLS AND JOB TOOLS    
             </div>
+            
+          {/* 2 */}
             <div className='arrowandhr'>
               <hr className='arrowhr' />
               <img className={'arrowslider ' + activeClass2} src={arrowslider} alt="arrow" /></div>
             </div>
 
+          {/* 3 */}
             <div className={'acordeon-container div ' + activeClass}>
               <p className='acordeon-text'>
                 Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff you call this cat food claw drapes. Scratch at door to be let outside, get let out then scratch at door immmediately after to be let back in annoy the old grumpy cat, start a fight and then retreat to wash when i lose.
@@ -70,6 +74,7 @@ function Sliderbox () {
                 </Link> 
               </div>
             </div>
+            
         </div>
       
       </>
