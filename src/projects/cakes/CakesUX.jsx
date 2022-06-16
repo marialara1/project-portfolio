@@ -21,18 +21,16 @@ function CakesUX () {
                 <div className="challenge">
                     <span className="span-title">Challenge</span>
                     <p>
-                        The challenge of this project was doing my first  website, from the design to the code. 
-                        Tenía que ser una one-page web donde hablara sobre mí y tuviera un formulario de contacto
-                        para que el usuario pudiera contactar conmigo.
+                    Candy canes gummies marzipan gummies lemon drops. Topping macaroon macaroon sweet cheesecake. Oat cake marshmallow carrot cake pie pie soufflé tootsie roll halvah. Dessert gummi bears sugar plum dragée jelly beans tart toffee biscuit.
                     </p>
                 </div>
 
                 <div className="goals">
                     <span className="span-title">Goals</span>
                     <ol>
-                        <li>Build a one-page web about me</li>
-                        <li>Ensure that it stands out from other about-me websites</li>
-                        <li>Create a mobile-first website, responsive on all devices.</li>
+                    <li>Build a scalable online shop</li>
+                    <li>Ensure that it stands out from other vegan cakes websites</li>
+                    <li>Create a mobile-first website, responsive on all devices.</li>
                     </ol>
                 </div>
         </div>
@@ -40,7 +38,7 @@ function CakesUX () {
 
         <div className="section__item">
             <span className="span-title">User Persona</span>
-            <p>These users are posibles personas que pueden estar interesadas en contratar mis servicios como ux/ui o frontend y quieran conocerme de manera más personal, o mi trayectoria. Son personas que se dedican a profesiones en tech o diseño</p>
+            <p>Candy canes gummies marzipan gummies lemon drops. Topping macaroon macaroon sweet cheesecake. Oat cake marshmallow carrot cake pie pie soufflé tootsie roll halvah. Dessert gummi bears sugar plum dragée jelly beans tart toffee biscuit.           estar interesadas en contratar mis servicios como ux/ui o frontend y quieran conocerme de manera más personal, o mi trayectoria. Son personas que se dedican a profesiones en tech o diseño</p>
         </div>
 
         <div className="section__item purchaseflow group">
@@ -68,10 +66,10 @@ function CakesUX () {
                 <img className="components" src={components} alt="components from about me project" />
             </div>
 
-            <p> Elegí una paleta cromática neutra y el rosa cómo único color principal, ya que el rosa me representa a nivel personal, transmite confianza, tranquilidad, creatividad y seguridad. Sporting Grotesque es una fuente con personalidad y de actualidad tal. La iconografía con grosores y trazo similares para que hubiera coherencia entre ellos </p>
+            <p> Candy canes gummies marzipan gummies lemon drops. Topping macaroon macaroon sweet cheesecake. Oat cake marshmallow carrot cake pie pie soufflé tootsie roll halvah. Dessert gummi bears sugar plum dragée jelly beans tart toffee biscuit. </p>
         </div>
         
-        <div className="section__item section__item-details ">
+        {/* <div className="section__item section__item-details ">
             <span className="span-title">Adding some details</span>
             <div className='details'>
                 <div className='section__item-content'>
@@ -80,7 +78,7 @@ function CakesUX () {
                 </div>
                 
             </div>
-        </div>
+        </div> */}
         
     </section>
     </>

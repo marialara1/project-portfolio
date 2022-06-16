@@ -1,3 +1,4 @@
+
 .cursor-green {
   cursor: url('../../cursor.svg'), auto;
 }
@@ -123,8 +124,8 @@
   position: absolute;
   /* top: 50%; */
   left: 50%;
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   pointer-events: none;
   /* transform: translate(-50%, -50%); */
   transition: opacity 0.4s ease-out, transform 0.4s ease-out;
@@ -146,4 +147,10 @@
   /* background-position: 50% 50%; */
   transition: transform 0.4s ease-out;
   will-change: transform;
+}
+
+.img-cont {
+  width: 70%!important;
+position: relative;
+left: 250px;
 }

@@ -55,17 +55,15 @@ function CakesFR () {
         <div className="one">
             <span className="span-title">Challenge</span>
             <p>
-                The challenge of this project was doing my first  website, from the design to the code. 
-                Tenía que ser una one-page web donde hablara sobre mí y tuviera un formulario de contacto
-                para que el usuario pudiera contactar conmigo.
+            Powder candy danish cheesecake bear claw tiramisu cupcake tiramisu chocolate bar. Pastry gingerbread candy canes wafer cheesecake. Cheesecake marzipan danish sweet roll tiramisu muffin marshmallow. 
             </p>
         </div>
 
         <div className="two">
             <span className="span-title">Goals</span>
             <ol>
-                <li>Build a one-page web about me</li>
-                <li>Ensure that it stands out from other about-me websites</li>
+                <li>Build a scalable online shop</li>
+                <li>Ensure that it stands out from other vegan cakes websites</li>
                 <li>Create a mobile-first website, responsive on all devices.</li>
             </ol>
         </div>

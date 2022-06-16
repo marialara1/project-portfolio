@@ -13,7 +13,7 @@ function MartaProject () {
         <span className="projectTitle">
             <h1>Marta Cazalla</h1>
             <h2> 
-                <a target="_blank" href="https://frontend.esatid3-2021.com/maria/aboutme/">
+                <a target="_blank" href="https://wordpress.esatid3-2021.com/maria/marta/">
                     Portfolio Web
                     <img className="arrow-link" src={arrow} alt="arrow" />
                 </a>

@@ -7,6 +7,7 @@ import ContactLink from "../contact/contact-link"
 import mock1 from "./mockhover1.png"
 import mock2 from "./mockhover2.png"
 import mock3 from "./mockhover3.png"
+import mock4 from "./mockhover4.png"
 
 import React, { useState, useEffect } from "react";
 import Animation from "../ProjectSection/Animation"
@@ -19,6 +20,7 @@ function ProjectSection () {
       { name: 'Marta Cazalla Portfolio Web', sub: 'Portfolio Web', urlname: 'marta-portfolio', img: mock3 },
       { name: 'Vegan Cakes Online Shop', sub: 'Online Shop', urlname: 'vegan-cakes', img: mock2},
       { name: 'About me Website', sub: 'Website', urlname: 'about-me', img: mock1},
+      { name: 'Code projects', sub: 'Website', urlname: 'code', img: mock4},
 
 
         // { name: 'Sara Martínez Portfolio Web', sub: 'Portfolio Web', urlname: 'sara-portfolio' },
@@ -43,6 +45,36 @@ function ProjectSection () {
           window.removeEventListener("mousemove", handleMouseMove);
         };
       }, []);
+
+
+
+
+
+
+//                                                      ¡GRACIAS¡
+
+                                /* ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⡤⠖⢲⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                              ⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⠤⠖⠒⠛⠉⠉⠉⠛⠻⢦⡀⠈⡇⠀⢀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                              ⠀⠀⠀⠀⠀⢀⡤⠞⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠦⣿⠀⡏⡬⣍⣲⡤⠤⠤⠤⠤⠤⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀
+                              ⢀⡤⠖⠚⢉⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⡄⡧⠟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⠦⣀⠀⠀⠀⠀⠀
+                              ⠙⣷⠅⢀⡎⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡀⢀⠀⠀⡿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠳⠤⠤⢄⣀
+                              ⠀⠘⣦⣸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢾⣿⠋⠀⠠⡇⠀⡾⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢱⡈⡆⡟
+                              ⠀⠀⠈⡏⠀⠀⠀⠀⠀⠀⠠⣿⣷⠀⠰⡏⢻⠉⠀⢸⡀⠀⠀⡇⠀⢹⣿⢆⢀⡀⠀⠀⠀⠀⢠⡀⠀⠀⠀⠀⠀⠟⡼⠁
+                              ⠀⠀⠀⣧⠀⠀⠀⠀⠀⠀⠀⠉⠉⠀⠀⠸⣸⡆⠀⠀⠁⠀⠀⡇⠀⢰⡇⠈⠉⠛⠂⠸⣿⠆⠈⠁⠀⠀⠀⠀⠀⡟⠀⠀
+                              ⠀⠀⠀⢸⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠁⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⡇⠀⠀
+                              ⠀⠀⠀⠀⢿⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡴⠢⠧⠤⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⠀⠀⠀
+                              ⠀⠀⠀⠀⠀⠛⠿⣦⣀⣀⣠⣤⣤⠖⠀⠀⠀⠀⠀⠐⢦⣳⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠇⠀⠀⠀
+                              ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⣰⡿⠃⠀⠀⠀⠀⠀⠀⢢⠀⠈⠉⢻⡗⠂⠀⠀⠀⠀⠀⠀⠙⠲⣶⠦⠤⠔⠚⠁⠀⠀⠀⠀
+                              ⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⣻⠁⠀⠀⠀⠀⠀⠀⠀⠈⣉⣙⠚⡟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢦⠀⠀⠀⠀⠀⠀⠀⠀
+                              ⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢱⡟⠲⡴⠒⠲⠆⠀⠀⠀⠀⠀⠀⠈⡇⠀⠀⠀⠀⠀⠀⠀
+                              ⠀⠀⠀⠀⠀⠀⠀⢀⡞⠻⡄⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠛⠢⡸⠁⠀⠀⠀⠀⠀⠀⠀⠀⡀⡸⠻⡀⠀⠀⠀⠀⠀⠀
+                              ⠀⠀⠀⠀⠀⠀⠀⠈⢷⣄⠙⠚⠛⢳⡤⣦⣄⣰⣴⠶⠶⠴⠶⠼⠷⠶⠤⠤⠤⠤⠤⠦⢴⡋⠉⠁⣰⠃⠀⠀⠀⠀⠀⠀
+                              ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠓⠒⠚⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠉⠉⠀⠀⠀⠀⠀⠀⠀⠀ */
+
+
+
+
+
 
 
     return <>

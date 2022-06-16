@@ -137,7 +137,10 @@ window.onload = function () {
           {/* 3 */}
             <div className={'acordeon-container div ' + activeClass}>
               <p className='acordeon-text'>
-                Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff you call this cat food claw drapes. Scratch at door to be let outside, get let out then scratch at door immmediately after to be let back in annoy the old grumpy cat, start a fight and then retreat to wash when i lose.
+              Hi! My name is Maria, a creative UI & UX designer and frontend developer.
+              I always seek to find an innovative, scalable and impactful solution.
+              In this portfolio you can check some of the projects I've made throughout the year.
+              This portfolio was made with React.js and designed with Figma. 
                 <br />
                 <a className='linkrrss' href="https://github.com/marialara1" target="_blank">[Github link]</a>
                 <br />
